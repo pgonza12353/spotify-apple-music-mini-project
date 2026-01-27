@@ -1,20 +1,18 @@
 # MusicBrainz Mini-Project
 
 ### Description
-Mini-project to gain hands-on experience with music API integration, fetching and displaying structured music data from the MusicBrainz API. Users can browse tracks and artists, with all data stored in Supabase.
+Mini-project to gain hands-on experience with music API integration by fetching and displaying structured artist data from the MusicBrainz API. Includes a basic frontend search and a Next.js API route.
 
 ### Tech Stack
 - Node.js
-- Next.js (API routes)
-- Tailwind CSS
-- Supabase
+- Next.js (API Router + API routes)
+- React
+- Supabase (PostgreSQL)
 - MusicBrainz API
 
-### Current Progress
-- Project setup complete (Supabase integration, Next.js API route scaffolded)
-- Test API route connected to Supabase table
-
-### Next Steps
-- Implement API route to fetch tracks and artists from MusicBrainz
-- Store fetched data in Supabase
-- Create minimal frontend to browse/search music data
+### Features
+- Project setup complete (Next.js + Supabase configured)
+- Implemented backend API route that queries MusicBrainz and returns normalized artist data (GET only)
+- Implemented full CRUD API routes for a Supabase test table (tested via Postman)
+- Implemented interactive frontend search and results display using MusicBrainz GET route
+- Supabase CRUD exists but is only accessible via API (Postman), not integrated into the UI
